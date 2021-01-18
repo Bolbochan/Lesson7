@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+   width: 90%;
+   margin: 75px;
+   font-size: 0px;
+   background-color: white;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    padding: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    height: 125px;
+    color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    line-height: 2;
+}
+.con1{
+background-color: rgb(102, 184, 184);   
+width: 50%; 
+}
+.con2{
+background-color: rgb(13, 218, 183);
+width: 25%; 
+}
+.con3{
+background-color: rgb(230, 88, 235);   
+width: 25%; 
+}
+.con3{
+background-color: rgb(230, 88, 235);   
+width: 25%; 
+}
+.con4{
+background-color: rgb(235, 88, 88);   
+width: 25%; 
+}
+.con5{
+background-color: rgb(224, 107, 10);   
+width: 25%; 
+}
+.con6{
+background-color: rgb(228, 255, 73);   
+width: 25%; 
+}
+.con7{
+background-color: rgb(93, 255, 101);   
+width: 25%; 
+}
+.con8{
+background-color: rgb(130, 160, 140);   
+width: 25%; 
+}
+.con9{
+background-color: rgb(240, 76, 199);   
+width: 50%; 
+}
+.con10{
+background-color: rgb(27, 129, 90);   
+width: 25%; 
+}
+.con11{
+background-color: rgb(108, 58, 131);   
+width: 100%; 
+}
+body{
+background-color: rgb(128, 128, 247);
+}
+
+ul :hover{
+    opacity: 0.6;
+}
+ul{opacity: 1;}
+.headshot{
+    position: absolute;
+    top: 25px;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.end{
+    position: absolute;
+    top: 600px;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.container{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
